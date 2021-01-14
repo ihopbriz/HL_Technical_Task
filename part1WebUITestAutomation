@@ -1,0 +1,84 @@
+package base;
+
+public class part1WebUITestAutomation {
+
+    /* Automated Test to test the screen and functionality of the webpage https://the-internet.herokuapp.com/tables
+    *
+    * Before attempting to write any Java, state what it is intended to test.
+    * I've seen Gherkins before and used them to describe manual tests.
+    * I've never had any formal training in their use or researched their syntax before now.
+    *
+    *
+    * Feature: Tables page of herokuapp.com website
+    *
+    *   The heading paragraph has been run through Grammerly. It indicated "which is" an incorrect pronoun usage.
+    *   This should be checked with the author to see whether this should state "that is". In the meantime, assume
+    *   this paragraph is correct and use this as the baseline check to test for any changes
+    *
+    * Scenario: Check heading and static text in Data Tables section
+    *
+    * Given Web browser is open at https://the-internet.herokuapp.com/tables
+    * When the screen text is compared to expected results
+    * Then the screen text and the expected result text are identical.
+    *
+    *
+    *
+    * Check Examples (Perform the following checks and repeat for all examples
+    *  - not sure how to specify this using Gherkin)
+    *
+    * Scenario: Check heading and static text in Examples section
+    *
+    * Given Web browser is open at https://the-internet.herokuapp.com/tables
+    * And an example is displayed on screen
+    * When the example title and descriptive text is compared to expected results
+    * Then the screen text and the expected result text are identical.
+    *
+    *
+    * Scenario: Check table header in Examples section
+    *
+    * Given Web browser is open at https://the-internet.herokuapp.com/tables and an example is displayed on screen
+    * When the header row is compared to expected results
+    * Then the screen text and the expected result text are identical.
+    *
+    * - For each row of data (not sure how to specify this using Gherkin)
+    *
+    * Scenario: Capture each item of data (in future it may be possible to compare this to some expected results)
+    *
+    * Given Web browser is open at https://the-internet.herokuapp.com/tables
+    * And an example is displayed on screen
+    * And there is data in the table
+    * Then it is possible to capture and store the data
+    *
+    * Scenario: Check the edit button gives user ability to edit data
+    *
+    * Given Web browser is open at https://the-internet.herokuapp.com/tables
+    * And an example is displayed on screen
+    * And there is data in the table
+    * When the 'edit' hyperlink is selected
+    * Then it is possible to edit data from the corresponding row
+    *
+    *
+    * Scenario: Check the delete button gives user ability to delete a row
+    *
+    * Given Web browser is open at https://the-internet.herokuapp.com/tables
+    * And an example is displayed on screen
+    * And there is data in the table
+    * When the 'delete' hyperlink is selected
+    * Then it is possible to delete the corresponding row from the table
+    *
+    *
+    * Scenario: Check footer text
+    *
+    * Given Web browser is open at https://the-internet.herokuapp.com/tables
+    * When the footer text is compared to expected results
+    * Then the screen text and the expected result text are identical.
+    *
+    * Scenario: Check footer text hyperlink
+    *
+    * Given Web browser is open at https://the-internet.herokuapp.com/tables
+    * When the footer text hyperlink is selected
+    * Then the hyperlink is opened in a new tab.
+    *
+    *
+    *  */
+}

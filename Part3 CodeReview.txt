@@ -1,0 +1,12 @@
+Feature File
+
+Overall the Gherkin is very poorly written and not easy to understand. It should provide a clear understanding of what the feature is supposed to do.
+The user of it would need to make assumptions as to what was actually intended by the author. If the developers assumptions are different to the testers then we'll definitely see some failed tests as a result. Getting the Gherkin correct in then first place would save both developer and tester from wasting time.
+An example of an assumption that would have to be made is that the 'And' statement looks like it should have been 'Then'.
+
+
+Step Def File & Page Object
+
+There are no comments anywhere in the code. In order to review the code I would need to be able to understand what the developer intended to achieve. Without this it's a waste of my time reviewing the code. I would politely ask the developer to add full and clear comments before attempting to review the code.
+
+
